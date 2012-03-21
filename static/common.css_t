@@ -206,7 +206,7 @@ fieldset{ border: 0; }
 	#table-contents .toctree-wrapper a:hover,
 	#table-contents .toctree-wrapper a:active{ color: #FFF8C3; }
 
-#content{ background-color: #FFFFFF; padding: 40px 40px 20px 0; }
+#content{ background-color: #FFFFFF; padding: 40px 40px 20px 20px; margin: 0; }
 
 #brand{
 	background-color: {{ theme_brand_bgcolor }};
