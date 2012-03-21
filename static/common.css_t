@@ -43,14 +43,13 @@ h3, h5, h6{ font-size: 18px; margin: 20px 0; }
 
 	h4, h5, h6{ font-size: 14px; }
 
-p, dl, ul, ol{ margin: 20px 0; }
+  p, dl { margin: 20px 0; }
 
-	p, dl, ul, ol, h3, h4, h5, h6{ margin-left: 20px; }
+	ul, ol { margin: 20px 0 20px 20px; }
 
-	li > ul,
-	li > ol{ margin: 0; margin-left: 40px; }
+	li > ul, li > ol{ margin: 0 0 0 40px; }
 
-	dl > dd{ margin-left: 20px; }
+	dl > dd { margin-left: 20px; }
 
 p, li, dd, dt, pre{ line-height: 1.5; }
 
@@ -75,6 +74,8 @@ table{
 
 		td{ font-size: 12px; }
 
+	.section { margin-left: 20px; }
+
 	.descname{ color: #000080; font-weight: bold; }
 	.descclassname{ color: #094776; }
 
@@ -91,7 +92,7 @@ table{
 
 	.method dt{ margin: 20px 0; }
 
-	.method table{ margin-bottom: 0; margin-left: 20px; }
+	.method table{ margin-bottom: 0; }
 
 	.method th,
 	.method td{ padding: 10px; }
@@ -132,7 +133,7 @@ fieldset{ border: 0; }
 .note{
 	background-color: #F5FBFF;
 	border: 1px solid #C8DEF0;
-	margin: 20px 0 20px 20px;
+	margin: 20px 0;
 	padding: 10px 10px 8px;
 }
 
@@ -205,7 +206,7 @@ fieldset{ border: 0; }
 	#table-contents .toctree-wrapper a:hover,
 	#table-contents .toctree-wrapper a:active{ color: #FFF8C3; }
 
-#content{ background-color: #FFFFFF; padding: 40px 40px 20px; }
+#content{ background-color: #FFFFFF; padding: 40px 40px 20px 0; }
 
 #brand{
 	background-color: {{ theme_brand_bgcolor }};
