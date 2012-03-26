@@ -49,6 +49,8 @@ h3, h5, h6{ font-size: 18px; margin: 20px 0; }
 
 	li > ul, li > ol{ margin: 0 0 0 40px; }
 
+	li em { font-style: normal; }
+
 	dl > dd { margin-left: 20px; }
 
 p, li, dd, dt, pre{ line-height: 1.5; }
